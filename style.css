@@ -1,1 +1,178 @@
+/* inter font form google */
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap");
+
+.inter-tight {
+  font-family: "Inter Tight", sans-serif;
+}
+/* meow font */
+.font-miama {
+  font-family: "Meow Script", cursive;
+  
+
+}
+
+
+/* shared styles */
+body {
+  color: white;
+  background: black;
+}
+.pri-color {
+  color: #e6533c;
+}
+.black {
+  font-weight: 900;
+}
+.btn-primary {
+  background: #e6533c;
+  padding: 10px 25px 10px 25px;
+  border-radius: 10px;
+  color: #FFFFFF;
+}
+.display-flex {
+  display: flex;
+}
+
+.navbar {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* navbar related styles */
+.navbar {
+  justify-content: space-between;
+  align-items: center;
+}
+.link-item {
+  list-style: none;
+  margin-right: 30px;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+}
+.nav-title {
+  font-size: 2.25rem;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.menubar {
+display: none;
+}
+/* banner related styles */
+.banner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.banner-title{
+  font-size: 5rem;
+}
+.banner-content > p{
+  margin-top: 0;
+  margin-bottom: 28px;
+  
+}
+.banner-content button{
+  margin-right: 10px;
+}
+.d-button{
+  background: none;
+  border: 1px solid #FFFFFF;
+  padding: 8px 25px 8px 25px;
+
+}
+.badge{
+  width: 190px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 10px;
+}
+.badge h2 , p {
+  margin: 0;
+}
+.badge > h2{
+  font-size: 3rem;
+}
+.banner-image{
+  position: relative;
+}
+.badge1{
+  position: absolute;
+  top: 140px;
+  right: -70px;
+}
+.badge2{
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  bottom: 70px;
+  left: -120px;
+}
+.circle{
+  width: 40px;
+  height: 50px;
+  border-radius: 50%;
+  background: #e6533c;
+}
+.content h2{
+  font-size: 2rem;
+}
+
+
+.buttons{
+  justify-content: space-around;
+}
+
+/* responsive for mobile display */
+@media screen and (max-width:576px ) {
+  *{
+    margin: 0px;
+    padding: 0;
+    /* border: 1px solid whitesmoke; */
+  }
+  .menubar {
+    display: block;
+    width: 30px;
+    margin-right: 20px;
+  }
+  .nav-title{
+    margin-left: 20px;
+  }
+  .banner {
+     flex-direction: column;
+     align-items: start;
+        margin-left: 10px;
+        
+    }
+    .nav-links{
+      display: none;
+  }
+  .banner-content{
+    margin: 10px ;
+  }
+  .banner-title{
+      font-size: 2.25rem;
+  }
+  
+  
+  .badge1{
+    width: 145px;
+    left: 190px;
+    top: 70px;
+  }
+  .badge2{
+    width: 150px;
+    left: 30px;
+    bottom: 250px;
+  }
+   
+
+}
+
+
+
 
