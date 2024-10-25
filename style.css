@@ -190,6 +190,9 @@ display: none;
 .image-optional >img{
   height: 300px;
 }
+.optional-des{
+  margin-bottom: 40px;
+}
 .image-optional {
   display: grid;
   grid-template-columns:repeat(3, 1fr);
@@ -447,6 +450,7 @@ hr{
 .image-optional{
   grid-template-columns: repeat(2, 1fr);
 }
+
 /* bmi styles */
 .bmi-main-container{
   height: 100%;
