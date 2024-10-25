@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Meow+Script&display=swap" rel="stylesheet">
+
 </head>
 <body class="inter-tight">
     <header class="header">
@@ -62,7 +63,7 @@
     </header>
     <main>
       <!-- change you habits -->
-        <section>
+        <section class="section">
             <div class="content">
               <h2 class="content-title">Change Your Habits</h2>
               <p class="secondery-color">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br> access to a gym.</p>
@@ -100,8 +101,8 @@
            </div>
         </section>
         <!-- hero hero hero hero -->
-        <section class="hero">
-          <div class="hero-container display-flex">
+        <section class="section">
+          <div class="hero-container margin display-flex">
             <div class="hero-content">
               <h2 class="hero-title">
                 Run an Extra <br> Mile Easily
@@ -113,8 +114,12 @@
           </div>
         </section>
         <!-- optional part -->
-        <section class="hero">
-          <div class="image-optional">
+        <section class="margin section">
+          <div class="margin">
+            <h2 class="hero-title">Traning and Exercises</h2>
+            <p class="secondery-color">We believe fitness should be accessible to everyone, everywhere, regardless of income <br> or access to a gym.</p>
+          </div>
+          <div class="image-optional margin">
             <img src="images/exercise1.jpg" alt="" class="image-1">
             <img src="images/exercise2.png" alt="" class="image-2">
             <img src="images/exercise3.png" alt="" class="image-3">
@@ -126,6 +131,71 @@
 
           </div>            
         </section>
+        <!-- bmi section -->
+         <section id="bmi-section">
+          <div class="">
+            <div class="main-text-content section margin">
+              <div>
+                <h1 class="bmi-title">BMI Calculator</h1>
+              <p class="secondery-color">Free Body Mass Index calculator gives out the BMI value and categorizes BMI based on provided <br> information from WHO and CDC for both adults and children.</p>
+              </div>
+            </div>
+            <div class="bmi-main-container display-flex ">
+              <div class="left-side">
+                <h2 class="text-title">BMI Calculator Chart</h2>
+                <table>
+                   <tr>
+                    <th>BMI</th>
+                    <th>Weight Status</th>
+                   </tr>
+                   <tr>
+                    <td>below 18.5</td>
+                    <td>Underweight</td>
+                   </tr>
+                   <tr>
+                    <td>18.5 - 24.9</td>
+                    <td>healthy</td>
+                   </tr>
+                   <tr>
+                    <td>25 - 29.9</td>
+                    <td>Overweight</td>
+                   </tr>
+                   <tr>
+                    <td>30.0 - and Avobe</td>
+                    <td>Obese</td>
+                   </tr>
+                </table>
+              </div>
+              <div class="right-side">
+                <div class="input-text-content">
+                  <h2 class="text-title">Calculate your BMI</h2>  
+                  <p class="secondery-color text-description">
+                    We believe fitness should be accessible to everyone, everywhere, regardless of income <br> or access to a gym. 
+                  </p> 
+                </div>
+                <div>
+                 <form class="input-field-container">
+                  <div class="height-weight display-flex">
+                    <input class="input-field" type="number" placeholder="Height/cm">
+                    <input class="input-field" type="number" placeholder="Weight/kg">
+                  </div>
+                  <div class="age-sex display-flex">
+                    <input class="input-field" type="number" placeholder="Age" >
+                    <input class="input-field" type="" placeholder="Sex">
+                  </div>
+                  <div class="select">
+                    <input  type="text" placeholder="Select an activity factor"  >
+                  </div>
+                  <input class="input-calc btn-primary" type="submit" value="Calculate">
+                 </form>
+
+                </div>
+
+              </div>
+            </div>
+          </div>
+         </section>
+       <!-- meeet our team -->
     </main>
     <footer>
 
