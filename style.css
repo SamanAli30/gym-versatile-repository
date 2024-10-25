@@ -275,8 +275,40 @@ input:focus{
 .main-text-content{
   margin-bottom: 60px;
 }
+/* meet our team section styles */
 
-
+.teams{
+  border-radius: 20px;
+  margin-top: 60px;
+  max-width: 1400px;
+  background: #222222;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 40px;
+}
+.team-member{
+  position: relative;
+  width:22px;
+}
+.team-profile{
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  width: 200px;
+}
+.team-profile > h4, p{
+  margin: 4px;
+}
+.trainer{
+  width: 400px;
+  height: 300px;
+  border-radius: 20px;
+  margin-left: 20px;
+}
+.team-text{
+  text-align: center;
+}
 
 
 
@@ -368,6 +400,16 @@ input:focus{
 }
 .select{
   width: 95%;
+}
+/* teams */
+.teams{
+  grid-template-columns: repeat(1, 1fr);
+  padding: 20px;
+  
+}
+.trainer{
+  width: 360px;
+  margin: 0 auto;
 }
 
 }
