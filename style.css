@@ -17,6 +17,7 @@ body {
   color: white;
   background: black;
 }
+
 section, .hero{
   margin-top: 80px;
 }
@@ -82,15 +83,15 @@ display: none;
   margin-bottom: 28px;
   
 }
+.d-button{
+  background: none;
+  border: 1px solid white;
+  padding: 8px 25px 8px 25px;
+}
 .banner-content button{
   margin-right: 10px;
 }
-/* .d-button{
-  background: none;
-  border: 1px solid #FFFFFF;
-  padding: 8px 25px 8px 25px;
 
-} */
 .badge{
   width: 190px;
   background: rgba(255, 255, 255, 0.1);
@@ -184,6 +185,30 @@ display: none;
 
 }
 
+/* optional part styles */
+/* filter: sepia(1) saturate(5) hue-rotate(90deg) brightness(.9); */
+.image-optional >img{
+  height: 300px;
+}
+.image-optional {
+  display: grid;
+  grid-template-columns:repeat(3, 1fr);
+}
+.image-1{
+  filter: sepia(1) saturate(5) hue-rotate(90deg) brightness(.9);
+}
+.image-2{
+  filter: sepia(1) saturate(5) hue-rotate(-50deg) brightness(.5);
+}
+.image-3{
+  width: 410px;
+}
+.image-5{
+  filter:sepia(1) saturate(5) hue-rotate(50deg) brightness(1);;
+}
+.image-6{
+  filter:sepia(1) saturate(2) hue-rotate(90deg) brightness(1);;
+}
 /* responsive for mobile display */
 @media screen and (max-width:576px ) {
   *{
@@ -244,6 +269,20 @@ display: none;
 .hero-image > img{
   height: 250px;
   margin-top: 20px;
+}
+.image-3, .image-6{
+  
+  display: none;
+}
+.image-1, .image-2, .image-4, .image-5{
+  width: 100%;
+  
+}
+
+.image-optional{
+  grid-template-columns: repeat(2, 1fr);
+  margin: 0 20px;
+ 
 }
 }
 
